@@ -1302,7 +1302,7 @@
     </style>
 
     <ul class="topnav" id="myTopnav">
-        <a href="home.html" class="active"><img class="logo" src="bbt_logo.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="bbt_logo.png 150w, bbt_logo.png 250w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+        <a href="index.html" class="active"><img class="logo" src="bbt_logo.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="bbt_logo.png 150w, bbt_logo.png 250w" sizes="(max-width: 150px) 100vw, 150px" /></a>
         <a href="https://www.linkedin.com/in/biancath0mas/" target="_blank"><i class="fa fa-linkedin" id="social1" style="float:right" width="32" height="32"></i></a>
         <a href="https://www.behance.net/biancabthomas" target="_blank"><i class="fa fa-behance" id="social2" style="float:right" width="32" height="32"></i></a>
         <div id="myNav" class="nav">
@@ -1370,7 +1370,7 @@
     <div class="bg-contact2">
 		<div class="container-contact2">
 			<div class="wrap-contact2">
-				<form class="contact2-form validate-form" action="mailto:&#98;&#98;&#95;&#116;&#104;&#111;&#109;&#97;&#115;&#64;&#111;&#117;&#116;&#108;&#111;&#111;&#107;&#46;&#99;&#111;&#109;" method="POST" enctype="text/plain">
+				<form class="contact2-form validate-form" id="formaction" method="POST">
 					<span class="contact2-form-title">
 						Get in Touch
 					</span>
@@ -1384,6 +1384,11 @@
 						<input class="input2" type="text" name="email">
 						<span class="focus-input2" data-placeholder="EMAIL"></span>
 					</div>
+                    
+                    <div class="wrap-input2 validate-input" data-validate = "Subject is required">
+						<input class="input2" type="text" name="subject">
+						<span class="focus-input2" data-placeholder="SUBJECT"></span>
+					</div>
 
 					<div class="wrap-input2 validate-input" data-validate = "Message is required">
 						<textarea class="input2" name="message"></textarea>
@@ -1393,7 +1398,7 @@
 					<div class="container-contact2-form-btn">
 						<div class="wrap-contact2-form-btn">
 							<div class="contact2-form-bgbtn"></div>
-							<button class="contact2-form-btn" type="submit" value="send email">
+							<button class="contact2-form-btn" type="submit" value="send">
 								Send
                                 </button>
 						</div>
@@ -1402,6 +1407,11 @@
 			</div>
 		</div>
 	</div>
+    <script>
+        var _0x3c61=['com','action','//formspree.io/','outlook','setAttribute'];(function(_0x346598,_0x53e176){var _0x57714e=function(_0x430994){while(--_0x430994){_0x346598['push'](_0x346598['shift']());}};_0x57714e(++_0x53e176);}(_0x3c61,0x1c5));var _0x7de9=function(_0x346598,_0x53e176){_0x346598=_0x346598-0x0;var _0x57714e=_0x3c61[_0x346598];return _0x57714e;};var contactform=document['getElementById']('formaction');contactform[_0x7de9('0x1')](_0x7de9('0x3'),_0x7de9('0x4')+'bb_thomas'+'@'+_0x7de9('0x0')+'.'+_0x7de9('0x2'));
+    </script>
+        
+    <input type="text" name="_gotcha" style="display:none" />
     
     <script src="jquery-3.2.1.min.js"></script>
 	<script src="popper.js"></script>
