@@ -1973,7 +1973,7 @@ body {
             }
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 830px) and (-webkit-min-device-pixel-ratio: 2) {
     h1 {
         width: 91%;
     }
@@ -2398,7 +2398,7 @@ body {
         }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) and (-webkit-min-device-pixel-ratio: 2) {
     h1 {
         width: 96.5%;
     }
