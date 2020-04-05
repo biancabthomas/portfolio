@@ -2438,7 +2438,7 @@ body {
     }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 340px) and (device-aspect-ratio: 40/71) {
     h1 {
         width: 93%;
         font-size: 70px;
