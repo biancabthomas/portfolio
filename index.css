@@ -215,7 +215,7 @@ body {
     .col1 {
         padding: 20px;
         float: left;
-        margin-left: 175px;
+        margin-left: 380px;
     }
 
     .col2 {
@@ -235,7 +235,7 @@ body {
     .col4 {
         padding: 20px;
         float: left;
-        margin-right: 175px;
+        margin-right: 380px;
     }
 
     .btns {
@@ -1006,7 +1006,7 @@ body {
     .col1 {
         padding: 20px;
         float: left;
-        margin-left: 175px;
+        margin-left: 130px;
     }
 
     .col2 {
@@ -1026,7 +1026,7 @@ body {
     .col4 {
         padding: 20px;
         float: left;
-        margin-right: 175px;
+        margin-right: 130px;
     }
 
     .wallpaper {
@@ -1257,7 +1257,7 @@ body {
     .col1 {
         padding: 20px;
         float: left;
-        margin-left: 175px;
+        margin-left: 100px;
     }
 
     .col2 {
@@ -1277,7 +1277,11 @@ body {
     .col4 {
         padding: 20px;
         float: left;
-        margin-right: 175px;
+        margin-right: 100px;
+    }
+    
+    .button2 {
+        font-size: 15px;
     }
 
     .wallpaper {
@@ -1506,7 +1510,7 @@ body {
     .col1 {
         padding: 20px;
         float: left;
-        margin-left: 175px;
+        margin-left: 60px;
     }
 
     .col2 {
@@ -1526,7 +1530,7 @@ body {
     .col4 {
         padding: 20px;
         float: left;
-        margin-right: 175px;
+        margin-right: 60px;
     }
 
     .wallpaper {
@@ -1755,7 +1759,7 @@ body {
     .col1 {
         padding: 20px;
         float: left;
-        margin-left: 175px;
+        margin-left: 0;
     }
 
     .col2 {
@@ -1775,7 +1779,7 @@ body {
     .col4 {
         padding: 20px;
         float: left;
-        margin-right: 175px;
+        margin-right: 0;
     }
 
     .wallpaper {
