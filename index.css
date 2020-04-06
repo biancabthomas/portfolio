@@ -65,7 +65,7 @@ body {
     width: 73%;
     margin: 0 auto;
     margin-top: 215px;
-    font-family: 'Century Gothic';
+    font-family: 'Century Gothic' !important;
 }
 
 .h1 {
