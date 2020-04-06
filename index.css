@@ -433,18 +433,6 @@ body {
         font-weight: bold !important;
     }
 
-    @font-face {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
-    }
-
-    @font-face {
-        font-family: 'Montserrat';
-        font-style: bold;
-        font-weight: 700;
-    }
-
     .r1 {
         content: "";
         display: inline-block;
