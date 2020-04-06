@@ -1961,7 +1961,7 @@ body {
             }
 }
 
-@media screen and (max-width: 830px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-width: 830px) {
     h1 {
         width: 91%;
     }
@@ -2386,7 +2386,7 @@ body {
         }
 }
 
-@media screen and (max-width: 700px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-width: 700px) {
     h1 {
         width: 96.5%;
     }
@@ -2396,7 +2396,7 @@ body {
     }
 }
 
-@media screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-width: 600px) {
     h1 {
         width: 87%;
     }
@@ -2436,7 +2436,7 @@ body {
     }
 }
 
-@media screen and (max-width: 340px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-width: 340px) {
     h1 {
         width: 87%;
         font-size: 70px;
