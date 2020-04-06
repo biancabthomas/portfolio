@@ -684,6 +684,7 @@ body {
 @media screen and (max-width: 1600px) {
     h1 {
         width: 73%;
+        margin-top: 250px;
     }
 
     .h1 {
