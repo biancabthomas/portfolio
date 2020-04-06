@@ -437,14 +437,14 @@ body {
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
-        src: local('Montserrat-Regular'), url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+        src: url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
     }
 
     @font-face {
         font-family: 'Montserrat';
         font-style: bold;
         font-weight: 700;
-        src: local('Montserrat-Bold'), url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format('truetype');
+        src: url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format('truetype');
     }
 
     .r1 {
@@ -2424,28 +2424,44 @@ body {
     }
 
     .h1 {
-        width: 94.5%;
+        width: 87%;
+    }
+    
+    iframe {
+        width: 91%;
+        height: 210px;
     }
 }
 
 @media screen and (max-width: 400px) {
     h1 {
-        width: 94%;
+        width: 86%;
     }
 
     .h1 {
-        width: 94%;
+        width: 86%;
+    }
+    
+   iframe {
+        width: 91%;
+        height: 185px;
     }
 }
 
 @media screen and (max-width: 340px) and (-webkit-min-device-pixel-ratio: 2) {
     h1 {
-        width: 93%;
+        width: 87%;
         font-size: 70px;
     }
 
     .h1 {
         width: 87%;
+        font-size: 70px !important;
+    }
+    
+    iframe {
+        width: 91%;
+        height: auto;
     }
 }
 
