@@ -3,6 +3,8 @@ body {
     overflow-x: hidden;
     color: #000000;
     margin: 0 auto;
+    font-family: 'Rubik';
+    font-weight: 100;
 }
 
 .header {
@@ -65,7 +67,9 @@ body {
     width: 73%;
     margin: 0 auto;
     margin-top: 215px;
-    font-family: 'Century Gothic';
+    font-family: "century-gothic", sans-serif;
+    font-style: normal;
+    font-weight: 700;
 }
 
 .h1 {
@@ -301,7 +305,6 @@ body {
         margin-right: 390px;
         text-align: left;
         font-size: 20px;
-        font-family: 'Rubik';
     }
 
     .sentence {
@@ -309,7 +312,6 @@ body {
         margin-right: 390px;
         text-align: center;
         font-size: 20px;
-        font-family: 'Rubik';
     }
 
     .paragraph a {
@@ -431,20 +433,6 @@ body {
     .gra {
         font-size: 50px !important;
         font-weight: bold !important;
-    }
-
-    @font-face {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
-        src: local('Montserrat-Regular'), url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
-    }
-
-    @font-face {
-        font-family: 'Montserrat';
-        font-style: bold;
-        font-weight: 700;
-        src: local('Montserrat-Bold'), url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format('truetype');
     }
 
     .r1 {
@@ -686,7 +674,7 @@ body {
                 clear: both;
             }
     
-    .par {
+    .para {
             word-spacing: 4px;
             margin-left: 8px;
             margin-right: 8px;
@@ -697,6 +685,7 @@ body {
 @media screen and (max-width: 1600px) {
     h1 {
         width: 73%;
+        margin-top: 250px;
     }
 
     .h1 {
@@ -1006,7 +995,7 @@ body {
     .col1 {
         padding: 20px;
         float: left;
-        margin-left: 175px;
+        margin-left: 130px;
     }
 
     .col2 {
@@ -1026,7 +1015,7 @@ body {
     .col4 {
         padding: 20px;
         float: left;
-        margin-right: 175px;
+        margin-right: 130px;
     }
 
     .wallpaper {
@@ -1049,21 +1038,18 @@ body {
         float: left;
         width: 26.5%;
         padding: 5px;
-
     }
 
     .c2 {
         float: left;
         width: 26.5%;
         padding: 5px;
-
     }
 
     .c3 {
         float: left;
         width: 26.5%;
         padding: 5px;
-
     }
 
     .mobile {
@@ -1257,7 +1243,7 @@ body {
     .col1 {
         padding: 20px;
         float: left;
-        margin-left: 175px;
+        margin-left: 100px;
     }
 
     .col2 {
@@ -1277,7 +1263,11 @@ body {
     .col4 {
         padding: 20px;
         float: left;
-        margin-right: 175px;
+        margin-right: 100px;
+    }
+    
+    .button2 {
+        font-size: 15px;
     }
 
     .wallpaper {
@@ -1755,7 +1745,7 @@ body {
     .col1 {
         padding: 20px;
         float: left;
-        margin-left: 175px;
+        margin-left: 0;
     }
 
     .col2 {
@@ -1775,7 +1765,7 @@ body {
     .col4 {
         padding: 20px;
         float: left;
-        margin-right: 175px;
+        margin-right: 0;
     }
 
     .wallpaper {
@@ -1969,7 +1959,7 @@ body {
             }
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 830px) and (-webkit-min-device-pixel-ratio: 2) {
     h1 {
         width: 91%;
     }
@@ -2131,8 +2121,7 @@ body {
         clear: both;
         justify-content: center;
         width: 91%;
-        margin: 0 auto;
-        
+        margin: 0 auto; 
     }
     
     .c1 {
@@ -2386,7 +2375,7 @@ body {
                 clear: both;
             }
     
-    .par {
+    .para {
             word-spacing: 4px;
             margin-left: 8px;
             margin-right: 8px;
@@ -2394,7 +2383,7 @@ body {
         }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) and (-webkit-min-device-pixel-ratio: 2) {
     h1 {
         width: 96.5%;
     }
@@ -2404,7 +2393,7 @@ body {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2) {
     h1 {
         width: 87%;
     }
@@ -2416,25 +2405,35 @@ body {
 
 @media screen and (max-width: 500px) {
     h1 {
-        width: 94.5%;
+        width: 87%;
     }
 
     .h1 {
-        width: 94.5%;
+        width: 87%;
+    }
+    
+     iframe {
+        width: 91%;
+        height: 210px;
     }
 }
 
 @media screen and (max-width: 400px) {
     h1 {
-        width: 94%;
+        width: 86%;
     }
 
     .h1 {
-        width: 94%;
+        width: 86%;
+    }
+    
+    iframe {
+        width: 91%;
+        height: 185px;
     }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 340px) and (-webkit-min-device-pixel-ratio: 2) {
     h1 {
         width: 93%;
         font-size: 70px;
@@ -2443,11 +2442,17 @@ body {
     .h1 {
         width: 93%;
     }
+    
+     iframe {
+        width: 91%;
+        height: auto;
+    }
 }
 
 .bottom {
     padding-top: 50px;
-    font-family: 'Century Gothic';
-    color: #00656d;
+    font-family: "century-gothic", sans-serif;
+    font-style: bold;
+    font-weight: 700;
     line-height: 25px;
 }
