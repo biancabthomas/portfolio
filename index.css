@@ -680,6 +680,14 @@ body {
             margin-right: 8px;
             margin-top: -100px;
         }
+    
+    .bottom {
+        padding-top: 50px;
+        font-family: "century-gothic", sans-serif;
+        font-style: bold;
+        font-weight: 700;
+        line-height: 25px;
+    }
 }
 
 @media screen and (max-width: 1600px) {
@@ -1962,11 +1970,12 @@ body {
 @media screen and (max-width: 830px) {
     h1 {
         width: 91%;
+        font-size: 70px;
     }
 
     .h1 {
         width: 91%;
-        font-size: 50px;
+        font-size: 70px;
     }
     
     ul.topnav li {
@@ -2381,6 +2390,10 @@ body {
             margin-right: 8px;
             margin-top: -100px;
         }
+    
+    .bottom {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -2436,7 +2449,6 @@ body {
 @media screen and (max-width: 340px) {
     h1 {
         width: 93%;
-        font-size: 70px;
     }
 
     .h1 {
@@ -2447,12 +2459,4 @@ body {
         width: 91%;
         height: auto;
     }
-}
-
-.bottom {
-    padding-top: 50px;
-    font-family: "century-gothic", sans-serif;
-    font-style: bold;
-    font-weight: 700;
-    line-height: 25px;
 }
