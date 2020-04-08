@@ -2106,15 +2106,21 @@ body {
     }
     
     .paragraph {
-        width: 100%;
+        width: 91%;
         margin-left: 0;
         margin-right: 0;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     
     .sentence {
-        width: 100%;
+        width: 91%;
         margin-left: 0;
         margin-right: 0;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     
     #wowslider-container0 {
@@ -2354,7 +2360,7 @@ body {
             }
     
     .c10 {
-                float: left;
+                float: inherit;
                 width: 100%;
                 padding: 0;
                 padding-top: 50px;
@@ -2367,19 +2373,22 @@ body {
             }
 
             #col5 {
-                padding-top: 120px;
-                margin-top: 30px;
+                padding-top: 20px;
                 margin-left: 0;
-                width: 100%;
+                margin-right: 0;
+                margin: 0 auto;
+                width: 90%;
             }
 
             .img-me {
                 width: 90%;
                 margin-left: 0;
+                margin: 0 auto;
+                margin-bottom: 30px;
             }
 
             /* Clear floats after the columns */
-            .r6:after {
+            .r6 {
                 content: "";
                 display: block;
                 clear: both;
@@ -2387,9 +2396,10 @@ body {
     
     .para {
             word-spacing: 4px;
-            margin-left: 8px;
-            margin-right: 8px;
-            margin-top: -100px;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 0;
+            width: 100%;
         }
     
     .bottom {
