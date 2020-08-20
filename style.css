@@ -60,7 +60,7 @@ nav ul li {
         position: relative;
         top: 46%;
         color: #fff;
-        font-family: 'Rubik Black';
+        font-family: 'Rubik Black', sans-serif;
         letter-spacing: 2px;
         text-decoration: none;
         display: block;

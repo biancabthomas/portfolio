@@ -5,7 +5,7 @@ body {
     overflow-x: hidden;
     color: #000000;
     margin: 0 auto;
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-weight: 100;
 }
 
@@ -97,7 +97,7 @@ body {
         margin-bottom: 10px;
         padding: 0;
         overflow: hidden;
-        font-family: 'Rubik Black';
+        font-family: 'Rubik Black', sans-serif;
     }
 
     ul.topnav li {
@@ -693,14 +693,14 @@ body {
 
     .hi {
         margin-top: -50px;
-        font-family: 'Rubik';
+        font-family: 'Rubik', sans-serif;
     }
 
     .bold {
         text-transform: uppercase;
         font-size: 40px!important;
         line-height: 50px!important;
-        font-family: 'Rubik Black';
+        font-family: 'Rubik Black', sans-serif;
         padding-bottom: 25px;
     }
 
@@ -719,11 +719,11 @@ body {
         font-size: 20px;
         line-height: 26.3px;
         word-spacing: 2.5px;
-        font-family: 'Rubik';
+        font-family: 'Rubik', sans-serif;
     }
 
     footer {
-        font-family: 'Rubik Black';
+        font-family: 'Rubik Black', sans-serif;
         font-style: bold;
         font-weight: 700;
         line-height: 25px;
