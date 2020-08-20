@@ -152,13 +152,25 @@
     <script src="script3.js"></script>
 
     <style>
-        footer {
-            color: #ffffff;
-            height: 4.5rem !important;
-            position: absolute;
-            width: 100%;
-            bottom: 0;
-            height: 0;
+        @media screen and (max-width: 2000px) {
+            footer {
+                color: #ffffff;
+                height: 4.5rem !important;
+                position: absolute !important;
+                width: 100%;
+                bottom: 0;
+                height: 0;
+            }
+        }
+
+        @media screen and (max-width: 830px) {
+            footer {
+                height: 0 !important;
+                position: initial !important;
+                width: 100%;
+                bottom: 0;
+                height: 0;
+            }
         }
     </style>
 
