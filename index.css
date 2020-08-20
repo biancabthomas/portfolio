@@ -97,7 +97,8 @@ body {
         margin-bottom: 10px;
         padding: 0;
         overflow: hidden;
-        font-family: 'Rubik Black', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 900;
     }
 
     ul.topnav li {
@@ -700,7 +701,8 @@ body {
         text-transform: uppercase;
         font-size: 40px!important;
         line-height: 50px!important;
-        font-family: 'Rubik Black', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 900;
         padding-bottom: 25px;
     }
 
@@ -723,9 +725,9 @@ body {
     }
 
     footer {
-        font-family: 'Rubik Black', sans-serif;
+        font-family: 'Rubik', sans-serif;
         font-style: bold;
-        font-weight: 700;
+        font-weight: 900;
         line-height: 25px;
         color: #00656d;
         position: initial;
