@@ -34,7 +34,7 @@ body {
     font-size: 16px;
     margin: 20px 12px;
     cursor: pointer;
-    font-family: 'Gills Sans', sans-serif !important;
+    font-family: 'Ubuntu', sans-serif !important;
 
 }
 
@@ -278,7 +278,7 @@ body {
         font-size: 16px;
         margin: 4px 12px;
         cursor: pointer;
-        font-family: 'Gills Sans', sans-serif !important;
+        font-family: 'Ubuntu', sans-serif !important;
     }
 
     .button1 {
@@ -311,7 +311,7 @@ body {
     }
 
     h2 {
-        font-family: 'Rubik';
+        font-family: 'Ubuntu', sans-serif;
         font-weight: 700px;
         color: #000000;
         margin-top: 50px;
@@ -721,7 +721,7 @@ body {
     }
 
     footer {
-        font-family: "century-gothic", sans-serif;
+        font-family: 'Rubik Black';
         font-style: bold;
         font-weight: 700;
         line-height: 25px;
