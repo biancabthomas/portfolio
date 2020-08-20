@@ -72,7 +72,7 @@ body {
         border-width: 11px;
         margin: auto;
         width: 73%;
-        font-family: "Ubantu", sans-serif;
+        font-family: "Ubantu", sans-serif!important;
         font-style: normal;
         font-weight: 700;
     }
