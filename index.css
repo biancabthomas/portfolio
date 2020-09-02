@@ -688,9 +688,9 @@ p {
     }
 
     .img-me {
-        width: 73.9%;
+        width: 60%;
         height: auto;
-        margin-left: 180px;
+        margin-left: 380px;
     }
 
     /* Clear floats after the columns */
@@ -711,8 +711,8 @@ p {
         line-height: 50px!important;
         font-family: 'Rubik', sans-serif;
         font-weight: 900;
-        padding-top: 75px;
-        padding-bottom: 100px;
+        padding-top: 38px;
+        padding-bottom: 60px;
         width: 83%;
     }
 
@@ -1017,7 +1017,7 @@ p {
 
     .bold {
         padding-top: 15px;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
         width: 100%;
     }
 
@@ -1590,8 +1590,8 @@ p {
 
     .bold {
         font-size: 35px!important;
-        padding-top: 0;
-        padding-bottom: 25px;
+        padding-top: 40px;
+        padding-bottom: 34px;
         width: 105%;
     }
 
@@ -1848,7 +1848,7 @@ p {
 
     .bold {
         font-size: 35px!important;
-        padding-bottom: 28px;
+        padding-bottom: 20px;
         width: 105%;
     }
 
@@ -2110,7 +2110,8 @@ p {
         text-transform: uppercase;
         font-size: 35px!important;
         line-height: 50px!important;
-        padding-bottom: 39px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 }
 
@@ -2367,7 +2368,7 @@ p {
     }
 
     .bold {
-        padding-bottom: 28px;
+        padding-bottom: 0;
         width: 90%;
     }
 
@@ -2621,6 +2622,26 @@ p {
     }
 
     .r5 {
+        width: 100%;
+    }
+
+    .img-me {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .hi {
+        margin-top: -50px;
+        margin-bottom: -15px;
+    }
+
+    .bold {
+        padding-bottom: 0;
+        width: 95%;
+    }
+
+    .box {
         width: 100%;
     }
 }
