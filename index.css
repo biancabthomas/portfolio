@@ -315,6 +315,11 @@ p {
         margin-bottom: 53px !important;
     }
 
+    .button7 {
+        border-radius: 43px;
+        margin-bottom: 53px !important;
+    }
+
     .button a {
         color: white;
     }
@@ -641,7 +646,7 @@ p {
         margin-top: 30px !important;
     }
 
-    embed {
+    object {
         width: 1120px !important;
         height: 640px;
         margin-bottom: 20px;
