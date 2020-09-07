@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge; IE=11; chrome=35; FF=31;">
+        <link rel="stylesheet" href="404.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <title>It looks like you are lost and ready to travel back home</title>
+        <body>
+            <video autoplay loop id="video-background" muted plays-inline>
+                <source src="Aerial Shot Of Forest Covered In Snow.mp4" type="video/mp4">
+              </video>
+                  
+                  <!-- Goes to end of body of course -->
+              <script>
+                  var vid = document.getElementById("video-background");
+                  vid.addEventListener("timeupdate", function () {
+                      if(this.currentTime >= 28.0) {
+                          this.currentTime = 0.0;
+                      }
+                  });
+              </script>
+            <div class="container">
+                <h1>404</h1>
+                <p>It looks like you got caught in the snowstorm</p>
+                <div id="btn">
+                    <button class="button button1"><b><a href="index.html"> Let's Go Home</a></b></button></div>
+            </div>
+        </body>
+    </head>
+</html>
