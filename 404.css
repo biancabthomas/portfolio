@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: 'Rustico-V2-Regular', sans-serif;
     background-image: url(willian-justen-de-vasconcellos-2UJDfClMpiA-unsplash.jpg);
+    background-size: cover;
     color: #DBC554;
 }
 

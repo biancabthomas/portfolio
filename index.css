@@ -325,6 +325,10 @@ p {
         color: white;
     }
 
+    .yump {
+        margin-bottom: 50px;
+    }
+
     .mobimg {
         display: none;
     }
