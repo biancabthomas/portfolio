@@ -308,6 +308,7 @@ p {
 
     .button5 {
         border-radius: 43px;
+        display: none;
     }
 
     .button6 {
@@ -322,6 +323,10 @@ p {
 
     .button a {
         color: white;
+    }
+
+    .mobimg {
+        display: none;
     }
 
     .wallpaper {
@@ -646,10 +651,11 @@ p {
         margin-top: 30px !important;
     }
 
-    object {
+    embed {
         width: 1120px !important;
         height: 640px;
         margin-bottom: 20px;
+        display: inline;
     }
 
     .i1 {
@@ -2740,6 +2746,15 @@ p {
         color: #008b8b;
     }
 
+    .button5 {
+        display: inline;
+    }
+
+    .mobimg {
+        width: 91%;
+        display: inline;
+    }
+
     .kids {
         width: 100%;
         height: auto;
@@ -3012,6 +3027,7 @@ p {
     embed {
         width: 91% !important;
         height: 280px;
+        display: none;
     }
 
     .r4 {
