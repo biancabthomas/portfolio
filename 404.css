@@ -1,18 +1,18 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Rustico-V2-Regular', sans-serif;
-    background-image: url(willian-justen-de-vasconcellos-2UJDfClMpiA-unsplash.jpg);
-    background-size: cover;
-    color: #DBC554;
-}
-
 @font-face { 
     font-family: "Rustico-V2-Regular";
     src: url(Rustico-V2-Regular.ttf); 
 }
 
 @media screen and (max-width: 2000px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Rustico-V2-Regular', sans-serif;
+        background-image: url(willian-justen-de-vasconcellos-2UJDfClMpiA-unsplash.jpg);
+        background-size: cover;
+        color: #DBC554;
+    }
+    
     /* The only rule that matters */
     #video-background {
         /*  making the video fullscreen  */
@@ -244,6 +244,10 @@ body {
 }
 
 @media screen and (max-width: 830px) {
+    body {
+        color: #00656d;
+    }
+    
     #video-background {
         display: none;
     }
