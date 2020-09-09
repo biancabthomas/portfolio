@@ -12,12 +12,6 @@ body {
 
 @media screen and (max-width: 2000px) {
     img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
         display: none;
     }
     
@@ -253,6 +247,12 @@ body {
 
 @media screen and (max-width: 830px) {
     img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
         display: inline;
     }
     
@@ -262,7 +262,7 @@ body {
     
     .container {
         width: 100%;
-        height: 100vh;
+        height: 50vh;
         position: absolute;
         top: -5%;
         text-align: center;
