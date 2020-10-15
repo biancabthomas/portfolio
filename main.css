@@ -47,6 +47,11 @@ iframe {
 	border: none !important;
 }
 
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
 
 
 
