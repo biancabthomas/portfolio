@@ -18,10 +18,3 @@ if(isset($_POST['submit'])){
     echo "Your message has been sent. Thank you ";
     }
 ?>
-
-if(isset($_POST['name'], $_POST['email'], $_POST['message'])) {
-    if(isset($_POST['title']) && !empty($_POST['title'])) {
-        die();
-    }
-    echo 'Your message has been sent';
-}
