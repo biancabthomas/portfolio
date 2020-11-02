@@ -406,9 +406,9 @@ p {
         /* IE10 */
         flex: 25%;
         max-width: 47%;
-        margin-top: 13px;
-        padding: 0 4px;
-        padding: 15px;
+        margin-top: 28px;
+        margin-left: 20px;
+        padding: 0;
     }
 
     .c2 {
@@ -517,7 +517,8 @@ p {
         /* IE10 */
         flex: 25%;
         width: 47%!important;
-        padding: 0 4px;
+        padding: 0;
+        margin-right: 5px;
     }
 
     .c4 img {
@@ -775,10 +776,10 @@ p {
         /* IE10 */
         flex: 25%;
         max-width: 100% !important;
-        padding: 0 4px;
-        margin-top: -10px;
+        padding: 0;
+        margin-top: 5px;
+        margin-right: 20px;
         float: left;
-        padding: 15px;
     }
 
     .c11 {
@@ -786,10 +787,10 @@ p {
         /* IE10 */
         flex: 25%;
         max-width: 47% !important;
-        padding: 0 4px;
-        margin-top: -10px;
+        padding: 0;
+        margin-top: 4.5px;
+        margin-left: 12px;
         float: left;
-        padding: 15px;
     }
 
     .crop7 {
@@ -838,6 +839,34 @@ p {
         width: 1120px;
         height: auto;
         object-fit: cover;
+    }
+
+    .crop16 {
+        display: none;
+    }
+
+    .crop17 {
+        display: none;
+    }
+
+    .crop18 {
+        display: none;
+    }
+
+    .crop19 {
+        display: none;
+    }
+
+    .crop20 {
+        display: none;
+    }
+
+    .crop21 {
+        display: none;
+    }
+
+    .crop22 {
+        display: none;
     }
 
     .c9 {
@@ -918,7 +947,7 @@ p {
         width: 1120px;
         margin: 0 auto;
         margin-top: -30px;
-        margin-bottom: -60px;
+        margin-bottom: -50px;
         justify-content: center;
     }
 
@@ -2813,7 +2842,7 @@ p {
         width: 100%;
         height: auto;
         margin: 0 auto;
-        display: block;
+        display: none;
         overflow: visible;
     }
 
@@ -2858,7 +2887,7 @@ p {
         display: block;
         clear: both;
         justify-content: center;
-        width: 100%;
+        width: 91%;
         margin: 0 auto;    }
 
     .c1 {
@@ -2867,11 +2896,6 @@ p {
         flex: 25%;
         max-width: 100% !important;
         padding: 0 0;
-    }
-
-    .c1 video {
-        vertical-align: middle;
-        width: 100% !important;
     }
 
     .c2 {
@@ -3019,6 +3043,7 @@ p {
         overflow: visible;
         margin: 0 auto;
         margin-bottom: 10px;
+        display: none;
     }
 
     .crop7 video {
@@ -3031,6 +3056,7 @@ p {
         overflow: visible;
         margin: 0 auto;
         margin-bottom: 10px;
+        display: none;
     }
 
     .crop10 {
@@ -3039,6 +3065,7 @@ p {
         overflow: visible;
         margin: 0 auto;
         margin-bottom: 10px;
+        display: none;
     }
 
     .crop8 {
@@ -3047,6 +3074,7 @@ p {
         overflow: visible;
         margin: 0 auto;
         margin-bottom: 10px;
+        display: none;
     }
 
     .crop11 {
@@ -3055,6 +3083,7 @@ p {
         overflow: visible;
         margin: 0 auto;
         margin-bottom: 10px;
+        display: none;
     }
 
     .crop12 {
@@ -3063,6 +3092,68 @@ p {
         overflow: visible;
         margin: 0 auto;
         margin-bottom: 10px;
+        display: none;
+    }
+
+    .crop16 {
+        display: inherit;
+        margin-bottom: 20px;
+    }
+
+    .crop16 img {
+        width: 100%;
+    }
+
+    .crop17 {
+        display: inherit;
+        margin-bottom: 20px;
+    }
+
+    .crop17 img {
+        width: 100%;
+    }
+
+    .crop18 {
+        display: inherit;
+        margin-bottom: 20px;
+    }
+
+    .crop18 img {
+        width: 100%;
+    }
+
+    .crop19 {
+        display: inherit;
+    }
+
+    .crop19 img {
+        width: 100%;
+    }
+
+    .crop20 {
+        display: inherit;
+        margin-bottom: 20px;
+    }
+
+    .crop20 img {
+        width: 100%;
+    }
+
+    .crop21 {
+        display: inherit;
+        margin-bottom: 20px;
+    }
+
+    .crop21 img {
+        width: 100%;
+    }
+
+    .crop22 {
+        display: inherit;
+    }
+
+    .crop22 img {
+        width: 100%;
     }
 
     .crop13 {
@@ -3225,7 +3316,7 @@ p {
         content: "";
         display: block;
         clear: both;
-        padding-top: 30px;
+        margin-top: -30px;
         width: 91%;
         margin: 0 auto;
     }
