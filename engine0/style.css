@@ -243,14 +243,14 @@
 	right: 0;
 	height:100%;
 	width:100%;
-	background: rgba(255,183,155,0.3);
+	background: rgba(128,19,54,0.3);
 	-webkit-transition: 300ms background ease;
 	transition: 300ms background ease;
 }
 
 #wowslider-container0 .ws_bullets a.ws_overbull > span,
 #wowslider-container0 .ws_bullets a.ws_selbull > span {
-	background: rgba(255,183,155,0.6);
+	background: rgba(128,19,54,0.6);
 }
 
 
@@ -261,7 +261,7 @@
 	right: 100px;
 	bottom: 0;
 	padding: 15px;
-	background: rgba(255,183,155,0.3);
+	background: rgba(128,19,54,0.3);
 	color: #ffffff;
 	z-index: 100;
 	-webkit-transition: 300ms background ease;
@@ -281,7 +281,7 @@
 	transform: translateY(-50%);
 }
 #wowslider-container0 .ws_playpause:hover {
-	background: rgba(255,183,155,0.6);
+	background: rgba(128,19,54,0.6);
 }
 /* IE10+ hacks */
 _:-ms-input-placeholder, :root #wowslider-container0 a.ws_playpause > span:before {line-height: 3.2em;}
@@ -325,7 +325,7 @@ _:-ms-input-placeholder, :root #wowslider-container0 a.ws_playpause > span:befor
 
 #wowslider-container0 a.ws_next:hover > span,
 #wowslider-container0 a.ws_prev:hover > span{
-	background: rgba(255,183,155,0.3);
+	background: rgba(128,19,54,0.3);
 }
 
 #wowslider-container0 a.ws_next > span:before,
@@ -404,7 +404,7 @@ _:-ms-input-placeholder, :root #wowslider-container0 a.ws_prev > span:before {li
 #wowslider-container0 .ws-title div,#wowslider-container0 .ws-title span{
 	display:inline-block;
 	padding: 0.6em 0.8em;
-	background-color: rgba(255,183,155,0.3);
+	background-color: rgba(128,19,54,0.3);
 	color: #fff;
 }
 #wowslider-container0 .ws-title div{
