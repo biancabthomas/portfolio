@@ -319,6 +319,14 @@ p {
         margin-bottom: 53px !important;
     }
 
+    .button8 {
+        border-radius: 43px;
+    }
+
+    .button9 {
+        border-radius: 43px;
+    }
+
     .button a {
         color: white;
     }
@@ -340,16 +348,29 @@ p {
     }
 
     .phonevid {
-        width: 100%;
-        height: 660px;
+        width: 1120px;
+        height: auto;
         margin-top: 27.5px;
-        overflow: hidden;
+        margin: 0 auto;
     }
 
-    .phonevid video {
+    .phonevid img {
         width: 1120px;
         height: auto;
         object-fit: cover;
+    }
+
+    .phonevid2 {
+        width: 1120px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .phonevid2 img {
+        width: 1120px;
+        height: auto;
+        object-fit: cover;
+        margin-top: 15px;
     }
 
     .full {
@@ -454,7 +475,7 @@ p {
         width: 1120px;
         margin: 0 auto;
         margin-top: -30px;
-        margin-bottom: -30px;
+        margin-bottom: -10px;
         justify-content: center;
     }
 
@@ -771,13 +792,22 @@ p {
         display: none;
     }
 
+    #video15 {
+        display: none;
+    }
+
+    #video16 {
+        display: none;
+    }
+
     .c12 {
         -ms-flex: 25%;
         /* IE10 */
         flex: 25%;
         max-width: 100% !important;
         padding: 0;
-        margin-top: 5px;
+        margin: 0 auto;
+        margin-top: 27.5px;
         margin-right: 20px;
         float: left;
     }
@@ -795,50 +825,56 @@ p {
 
     .crop7 {
         width: 100%;
-        height: 250px;
-        overflow: hidden;
+        padding-bottom: 10px;
     }
 
-    .crop7 video {
-        width: 700px;
-        height: 400px;
-        margin-right: 100px;
+    .crop7 img {
+        width: 405px;
+        height: auto;
     }
 
     .crop8 {
         width: 100%;
-        height: 240px;
-        overflow: hidden;
+        padding-bottom: 10px;
     }
 
-    .crop8 video {
-        width: 700px;
-        height: 368px;
+    .crop8 img {
+        width: 405px;
+        height: auto;
     }
 
     .crop11 {
         width: 100%;
-        height: 260px;
-        margin-top: -14px;
-        overflow: hidden;
+        margin-top: 27.5px;
     }
 
-    .crop11 video {
-        width: 700px;
-        height: 368px;
+    .crop11 img {
+        width: 520px;
+        height: auto;
     }
 
     .crop12 {
         width: 100%;
-        height: 660px;
+        height: 295px;
         margin-top: 27.5px;
         overflow: hidden;
     }
 
-    .crop12 video {
-        width: 1120px;
+    .crop12 img {
+        width: 564px;
         height: auto;
-        object-fit: cover;
+    }
+
+    .crop26 {
+        width: 100%;
+        margin-top: 27.5px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    .crop26 img {
+        width: 687px;
+        height: auto;
     }
 
     .crop16 {
@@ -867,6 +903,30 @@ p {
 
     .crop22 {
         display: none;
+    }
+
+    .crop25 {
+        display: none;
+    }
+
+    .crop27 {
+        display: none;
+    }
+
+    .r16 {
+        content: "";
+        display: flex;
+        clear: both;
+        width: 1120px;
+        margin: 0 auto;
+    }
+
+    .crop23 img {
+        width: 100%;
+    }
+
+    .crop24 img {
+        width: 100%;
     }
 
     .c9 {
@@ -920,24 +980,27 @@ p {
 
     .crop9 {
         width: 100%;
-        height: 340px;
+        height: 342px;
         overflow: hidden;
+        margin-top: 33px;
+        margin-right: 5px;
     }
 
-    .crop9 video {
-        width: 700px;
-        height: 400px;
+    .crop9 img {
+        width: 100%;
+        height: auto;
     }
 
     .crop10 {
         width: 100%;
         height: 342px;
         overflow: hidden;
+        margin-top: 33px;
     }
 
-    .crop10 video {
-        width: 100%;
-        height: 400px;
+    .crop10 img {
+        width: 116%;
+        height: auto;
     }
 
     .r8 {
@@ -947,7 +1010,16 @@ p {
         width: 1120px;
         margin: 0 auto;
         margin-top: -30px;
-        margin-bottom: -50px;
+        justify-content: center;
+    }
+
+    .r18 {
+        content: "";
+        display: flex;
+        clear: both;
+        width: 1120px;
+        margin: 0 auto;
+        margin-top: -30px;
         justify-content: center;
     }
 
@@ -984,12 +1056,30 @@ p {
         height: auto;
     }
 
+    .i3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .i4 {
+        width: 100%;
+        height: 386px;
+        overflow: hidden;
+    }
+
     .mock {
         width: 100%;
-
     }
 
     .mock2 {
+        width: 100%;
+    }
+
+    .mock3 {
+        width: 100%;
+    }
+
+    .mock4 {
         width: 100%;
     }
 
@@ -1003,7 +1093,26 @@ p {
         padding: 15px;
     }
 
+    .c20 {
+        float: left;
+        padding: 15px;
+    }
+
+    .c21 {
+        float: left;
+        padding: 15px;
+    }
+
     .r15 {
+        content: "";
+        display: flex;
+        clear: both;
+        padding-top: 30px;
+        width: 22.5%;
+        margin: 0 auto;
+    }
+
+    .r17 {
         content: "";
         display: flex;
         clear: both;
@@ -1040,14 +1149,14 @@ p {
     }
 
     .hi {
-        margin-top: -50px;
+        margin-top: -125px;
         font-family: 'Rubik', sans-serif;
     }
 
     .bold {
         text-transform: uppercase;
         font-size: 35px!important;
-        line-height: 50px!important;
+        line-height: 35px!important;
         font-family: 'Rubik', sans-serif;
         font-weight: 900;
         padding-top: 38px;
@@ -1062,14 +1171,15 @@ p {
     }
 
     .para {
-        word-spacing: 4px;
+        word-spacing: 4px!important;
         margin-left: 10px;
         margin-right: 10px;
         margin-top: 10px;
         margin-bottom: 10px;
-        font-size: 20px;
-        line-height: 26.3px;
-        word-spacing: 2.5px;
+        font-weight: 500;
+        font-size: 16.5px!important;
+        line-height: 18px!important;
+        word-spacing: 1px!important;
         font-family: 'Rubik', sans-serif;
     }
 
@@ -1278,6 +1388,10 @@ p {
     }
 
     .r15 {
+        width: 28%;
+    }
+
+    .r17 {
         width: 28%;
     }
 
@@ -1511,6 +1625,10 @@ p {
         width: 30%;
     }
 
+    .r17 {
+        width: 30%;
+    }
+
     .c10 p {
         font-size: 20px;
         line-height: 27px;
@@ -1738,6 +1856,10 @@ p {
     }
 
     .r15 {
+        width: 45%;
+    }
+
+    .r17 {
         width: 45%;
     }
 
@@ -1971,6 +2093,10 @@ p {
         width: 69.5%;
     }
 
+    .r17 {
+        width: 45%;
+    }
+
     .c10 p {
         font-size: 20px;
         line-height: 27px;
@@ -2198,6 +2324,10 @@ p {
     }
 
     .r15 {
+        width: 69.5%;
+    }
+
+    .r17 {
         width: 69.5%;
     }
 
@@ -2436,6 +2566,10 @@ p {
         width: 73%;
     }
 
+    .r17 {
+        width: 73%;
+    }
+
     .c10 p {
         font-size: 20px;
         line-height: 27.1px;
@@ -2670,6 +2804,10 @@ p {
         width: 75%;
     }
 
+    .r17 {
+        width: 75%;
+    }
+
     .c10 p {
         font-size: 20px;
         line-height: 26.3px;
@@ -2684,20 +2822,20 @@ p {
     }
 
     .img-me {
-        width: 73.9%;
+        width: 78%;
         height: auto;
-        margin-left: 170px;
+        margin-left: 185px;
     }
 
     .bold {
-        font-size: 35px!important;
-        padding-top: 40px;
-        padding-bottom: 34px;
-        width: 105%;
+        font-size: 25px!important;
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 102%;
     }
 
     .box {
-        width: 105%;
+        width: 101%;
     }
 
 }
@@ -2875,7 +3013,10 @@ p {
 
     .r15 {
         width: 80.5%;
+    }
 
+    .r17 {
+        width: 80.5%;
     }
 
     .c10 p {
@@ -3043,6 +3184,10 @@ p {
         height: 350px;
     }
 
+    .i4 {
+        height: 372px;
+    }
+
     figcaption {
         top: 120px !important;
     }
@@ -3087,6 +3232,10 @@ p {
         width: 82.5%;
     }
 
+    .r17 {
+        width: 82.5%;
+    }
+
     #col5 {
         padding-top: 120px;
         margin-top: 50px;
@@ -3095,21 +3244,25 @@ p {
     }
 
     .img-me {
-        width: 83%;
+        width: 82.5%;
         height: auto;
         margin-left: 90px;
     }
 
     .hi {
-        margin-top: -50px;
+        margin-top: -125px;
     }
 
     .bold {
         text-transform: uppercase;
-        font-size: 35px!important;
-        line-height: 50px!important;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        font-size: 25px!important;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .para {
+        font-size: 17px!important;
+        line-height: 18.5px!important;
     }
 }
 
@@ -3286,7 +3439,10 @@ p {
 
     .r15 {
         width: 90.5%;
+    }
 
+    .r17 {
+        width: 90.5%;
     }
 
     .c10 p {
@@ -3576,6 +3732,10 @@ p {
         width: 100%;
     }
 
+    .r17 {
+        width: 100%;
+    }
+
     .img-me {
         width: 100%;
         height: auto;
@@ -3758,6 +3918,14 @@ p {
     }
 
     .phonevid {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: none;
+        overflow: visible;
+    }
+
+    .phonevid2 {
         width: 100%;
         height: auto;
         margin: 0 auto;
@@ -3956,6 +4124,15 @@ p {
         height: auto;
     }
 
+    .crop26 {
+        width: 100%;
+        height: auto;
+        overflow: visible;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        display: none;
+    }
+
     .crop7 {
         width: 100%;
         height: auto;
@@ -4034,7 +4211,6 @@ p {
 
     .crop18 {
         display: inherit;
-        margin-bottom: 20px;
     }
 
     .crop18 img {
@@ -4043,6 +4219,8 @@ p {
 
     .crop19 {
         display: inherit;
+        margin-bottom: 20px;
+
     }
 
     .crop19 img {
@@ -4072,6 +4250,23 @@ p {
     }
 
     .crop22 img {
+        width: 91%;
+    }
+
+    .crop25 {
+        display: inherit;
+        margin-bottom: 20px;
+    }
+
+    .crop25 img {
+        width: 91%;
+    }
+
+    .crop27 {
+        display: inherit;
+    }
+
+    .crop27 img {
         width: 100%;
     }
 
@@ -4170,11 +4365,29 @@ p {
         height: auto;
     }
 
+    .i3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .i4 {
+        width: 100%;
+        height: auto;
+    }
+
     .mock {
         width: 100%;
     }
 
     .mock2 {
+        width: 100%;
+    }
+
+    .mock3 {
+        width: 100%;
+    }
+
+    .mock4 {
         width: 100%;
     }
 
@@ -4188,7 +4401,35 @@ p {
         padding: 15px;
     }
 
+    .c20 {
+        float: left;
+        padding: 15px;
+    }
+
+    .c21 {
+        float: left;
+        padding: 15px;
+    }
+
     .r15 {
+        content: "";
+        display: block;
+        clear: both;
+        padding-top: 30px;
+        width: 91%;
+        margin: 0 auto;
+    }
+
+    .r16 {
+        content: "";
+        display: block;
+        clear: both;
+        padding-top: 30px;
+        width: 91%;
+        margin: 0 auto;
+    }
+
+    .r17 {
         content: "";
         display: block;
         clear: both;
@@ -4232,6 +4473,15 @@ p {
     }
 
     .r8 {
+        content: "";
+        display: block;
+        clear: both;
+        margin-top: -30px;
+        width: 91%;
+        margin: 0 auto;
+    }
+
+    .r18 {
         content: "";
         display: block;
         clear: both;
