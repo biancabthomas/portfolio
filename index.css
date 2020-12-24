@@ -921,8 +921,16 @@ p {
         margin: 0 auto;
     }
 
+    .crop23 {
+        margin-right: 10px;
+    }
+
     .crop23 img {
         width: 100%;
+    }
+
+    .crop24 {
+        margin-right: 10px;
     }
 
     .crop24 img {
