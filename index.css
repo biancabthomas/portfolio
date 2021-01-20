@@ -4302,7 +4302,7 @@ p {
 
     .crop27 {
         display: inherit;
-        height: 195px;
+        height: auto;
     }
 
     .crop27 img {
