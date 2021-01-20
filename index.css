@@ -354,10 +354,9 @@ p {
         margin: 0 auto;
     }
 
-    .phonevid img {
-        width: 1120px;
+    .phonevid video {
+        width: 100%;
         height: auto;
-        object-fit: cover;
     }
 
     .phonevid2 {
@@ -366,7 +365,7 @@ p {
         margin: 0 auto;
     }
 
-    .phonevid2 img {
+    .phonevid2 video {
         width: 1120px;
         height: auto;
         object-fit: cover;
@@ -699,7 +698,7 @@ p {
         bottom: 0;
         min-width: 100%;
         min-height: 100%;
-        width: 700px;
+        width: 900px;
         height: auto;
         z-index: -100;
     }
@@ -709,7 +708,7 @@ p {
         bottom: 0;
         min-width: 100%;
         min-height: 100%;
-        width: 100%;
+        width: 155%;
         height: auto;
         z-index: -100;
     }
@@ -719,7 +718,7 @@ p {
         bottom: 0;
         min-width: 100%;
         min-height: 100%;
-        width: 100%;
+        width: 155%;
         height: auto;
         z-index: -100;
     }
@@ -738,7 +737,7 @@ p {
         right: 0;
         bottom: 0;
         min-width: 100%;
-        min-height: 71%;
+        min-height: 100%;
         width: 100%;
         height: auto;
         z-index: -100;
@@ -748,13 +747,33 @@ p {
         right: 0;
         bottom: 0;
         min-width: 100%;
-        min-height: 71%;
+        min-height: auto;
         width: 100%;
         height: auto;
         z-index: -100;
     }
 
     #video7 {
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: 100%;
+        height: auto;
+        z-index: -100;
+    }
+
+    #video17 {
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: 100%;
+        height: auto;
+        z-index: -100;
+    }
+
+    #video18 {
         right: 0;
         bottom: 0;
         min-width: 100%;
@@ -824,33 +843,42 @@ p {
     }
 
     .crop7 {
-        width: 100%;
+        width: 107%;
         padding-bottom: 10px;
+        overflow: hidden;
     }
 
-    .crop7 img {
-        width: 405px;
+    .crop7 video {
+        width: 100%;
         height: auto;
+        object-fit: cover;
+        
     }
 
     .crop8 {
-        width: 100%;
+        width: 107%;
         padding-bottom: 10px;
+        overflow: hidden;
     }
 
-    .crop8 img {
-        width: 405px;
+    .crop8 video {
+        width: 605px;
         height: auto;
+        object-fit: cover;
     }
 
     .crop11 {
         width: 100%;
+        height: 295px;
         margin-top: 27.5px;
+        margin-left: 15px;
+        overflow: hidden;
     }
 
-    .crop11 img {
+    .crop11 video {
         width: 520px;
         height: auto;
+        object-fit: cover;
     }
 
     .crop12 {
@@ -860,21 +888,23 @@ p {
         overflow: hidden;
     }
 
-    .crop12 img {
+    .crop12 video {
         width: 564px;
         height: auto;
     }
 
     .crop26 {
-        width: 100%;
+        width: 70%;
         margin-top: 27.5px;
         margin-bottom: 10px;
         margin-right: 10px;
+        overflow: hidden;
     }
 
-    .crop26 img {
+    .crop26 video {
         width: 687px;
         height: auto;
+        object-fit: cover;
     }
 
     .crop16 {
@@ -988,26 +1018,26 @@ p {
 
     .crop9 {
         width: 100%;
-        height: 342px;
+        height: 314px;
         overflow: hidden;
         margin-top: 33px;
         margin-right: 5px;
     }
 
-    .crop9 img {
+    .crop9 video {
         width: 100%;
         height: auto;
     }
 
     .crop10 {
         width: 100%;
-        height: 342px;
+        height: 320px;
         overflow: hidden;
-        margin-top: 33px;
+        margin-top: 30px;
     }
 
-    .crop10 img {
-        width: 116%;
+    .crop10 video {
+        width: 100%;
         height: auto;
     }
 
@@ -4272,6 +4302,7 @@ p {
 
     .crop27 {
         display: inherit;
+        height: 195px;
     }
 
     .crop27 img {
