@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="style3.css">
+    <link rel='stylesheet' id='camera-css'  href='camera.css' type='text/css' media='all'>
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
     <link href="demo-page.css" rel="stylesheet" media="all">
     <link href="imagehover.min.css" rel="stylesheet" media="all">
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css'>
@@ -22,10 +24,7 @@
 
     <title>Web Design Work &#8211; Bianca B. Thomas Portfolio</title>
 
-	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
-	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
-	<script type="text/javascript" src="engine0/jquery.js"></script>
-	<!-- End WOWSlider.com HEAD section --></head>
+</head>
 
 <body>
     <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
@@ -232,29 +231,46 @@
         </h2>
     </div>
 
-	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-	<div id="wowslider-container0">
-	<div class="ws_images"><ul>
-		<li><img src="data0/images/lowifi_desktop_mockup.jpg" alt="Low Fidelity Desktop Wireframe" title="Low Fidelity Desktop Wireframe" id="wows0_0"/></li>
-		<li><img src="data0/images/desktop_hifi_wireframe.jpg" alt="High Fidelity Desktop Wireframe" title="High Fidelity Desktop Wireframe" id="wows0_1"/></li>
-		<li><img src="data0/images/mobile_lowfi_wireframe1.jpg" alt="Low Fidelity Mobile Wireframe" title="Low Fidelity Mobile Wireframe" id="wows0_2"/></li>
-		<li><img src="data0/images/mobile_hifi_wireframe1.jpg" alt="High Fidelity Mobile Wireframe" title="High Fidelity Mobile Wireframe" id="wows0_3"/></li>
-		<li><a href="http://wowslider.net"><img src="data0/images/mobile_lowfi_wireframe2.jpg" alt="slider jquery" title="Low Fidelity Mobile Wireframe" id="wows0_4"/></a></li>
-		<li><img src="data0/images/mobile_hifi_wireframe2.jpg" alt="High Fidelity Mobile Wireframe" title="High Fidelity Mobile Wireframe" id="wows0_5"/></li>
-	</ul></div>
-	<div class="ws_bullets"><div>
-		<a href="#" title="Low Fidelity Desktop Wireframe"><span><img src="data0/tooltips/lowifi_desktop_mockup.jpg" alt="Low Fidelity Desktop Wireframe"/>1</span></a>
-		<a href="#" title="High Fidelity Desktop Wireframe"><span><img src="data0/tooltips/desktop_hifi_wireframe.jpg" alt="High Fidelity Desktop Wireframe"/>2</span></a>
-		<a href="#" title="Low Fidelity Mobile Wireframe"><span><img src="data0/tooltips/mobile_lowfi_wireframe1.jpg" alt="Low Fidelity Mobile Wireframe"/>3</span></a>
-		<a href="#" title="High Fidelity Mobile Wireframe"><span><img src="data0/tooltips/mobile_hifi_wireframe1.jpg" alt="High Fidelity Mobile Wireframe"/>4</span></a>
-		<a href="#" title="Low Fidelity Mobile Wireframe"><span><img src="data0/tooltips/mobile_lowfi_wireframe2.jpg" alt="Low Fidelity Mobile Wireframe"/>5</span></a>
-		<a href="#" title="High Fidelity Mobile Wireframe"><span><img src="data0/tooltips/mobile_hifi_wireframe2.jpg" alt="High Fidelity Mobile Wireframe"/>6</span></a>
-	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slider</a> by WOWSlider.com v9.0</div>
-	<div class="ws_shadow"></div>
-	</div>	
-	<script type="text/javascript" src="engine0/wowslider.js"></script>
-	<script type="text/javascript" src="engine0/script.js"></script>
-	<!-- End WOWSlider.com BODY section -->
+    <script type='text/javascript' src='scripts/jquery.min.js'></script>
+    <script type='text/javascript' src='scripts/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='scripts/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='scripts/camera.min.js'></script> 
+    
+    <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_1').camera({
+				thumbnails: true
+			});
+		});
+	</script>
+
+    <div class="fluid_container">
+        <div class="camera_wrap camera_burgundy_skin" id="camera_wrap_1">
+            <div data-thumb="thumb/desktop_low-fi_wireframe_thumb.jpg" data-src="desktop_low-fi_wireframe.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Desktop Low-Fidelity Wireframe
+                </div>
+            </div>
+            <div data-thumb="thumb/desktop_hi-fi_wireframe1_thumb.jpg" data-src="desktop_hi-fi_wireframe1.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Desktop High-Fidelity Wireframe
+                </div>
+            </div>
+            <div data-thumb="thumb/mobile_low-fi_wireframe1_thumb.jpg" data-src="mobile_low-fi_wireframe1.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Mobile Low-Fidelity Wireframe
+                </div>
+            </div>
+            <div data-thumb="thumb/mobile_hi-fi_wireframe1_thumb.jpg" data-src="mobile_hi-fi_wireframe1.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Mobile High-Fidelity Wireframe
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="clear:both; display:block;"></div>
 
     <div style="text-align:center">
         <h2 style="font-size: 25px;">
