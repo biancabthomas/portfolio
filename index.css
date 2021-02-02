@@ -61,6 +61,12 @@ p {
     font-family: 'Rubik', sans-serif;
 }
 
+.fluid_container {
+	margin: 0 auto;
+    max-width: 1120px;
+    width: 90%;
+}
+
 @media screen and (max-width: 5200px) {
     .container {
         text-align: center;
