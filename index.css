@@ -15,6 +15,11 @@ body {
     padding-bottom: 20px;
 }
 
+.wrapper {
+  width: 1123px;
+  margin: 0 auto;
+}
+
 #btn {
     display: flex;
     align-items: center;
@@ -788,7 +793,7 @@ p {
         height: auto;
         z-index: -100;
     }
-    
+
     #video8 {
         display: none;
     }
@@ -1219,7 +1224,7 @@ p {
         margin-bottom: 10px;
         font-weight: 500;
         font-size: 16.5px!important;
-        line-height: 18px!important;
+        line-height: 25px!important;
         word-spacing: 1px!important;
         font-family: 'Rubik', sans-serif;
     }
@@ -2674,7 +2679,7 @@ p {
         margin-left: 195px;
         padding-bottom: 1px;
     }
-    
+
     .row {
         margin-bottom: 0;
     }
@@ -3678,7 +3683,7 @@ p {
         height: 350px;
         overflow: hidden;
     }
-    
+
     .mobile {
         width: 100%;
     }
@@ -3795,6 +3800,18 @@ p {
 
     .box {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .wrapper {
+      width: 900px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .wrapper {
+      width: 600px;
     }
 }
 
@@ -3920,7 +3937,7 @@ p {
         align-items: inherit;
         justify-content: inherit;
     }
-    
+
     .row {
         display: block;
         margin-top: 0;
@@ -4048,17 +4065,17 @@ p {
         width: 95%;
         height: auto;
     }
-    
+
     .ux {
         font-size: 55px !important;
         margin-top: 45px;
     }
-    
+
     .gra {
         font-size: 55px !important;
         margin-top: 45px;
     }
-    
+
     .pa {
         font-size: 15px !important;
     }
@@ -4619,17 +4636,17 @@ p {
     .h1 {
         width: 96.5%;
     }
-    
+
     .ux {
         font-size: 55px !important;
         margin-top: 40px;
     }
-    
+
     .gra {
         font-size: 55px !important;
         margin-top: 40px;
     }
-    
+
     .pa {
         font-size: 15px !important;
     }
@@ -4653,7 +4670,7 @@ p {
     .h1 {
         width: 87%;
     }
-    
+
     .logo {
         padding-top: 10px;
     }
@@ -4662,19 +4679,23 @@ p {
         width: 91%;
         height: 210px;
     }
-    
+
     .ux {
         font-size: 35px !important;
         margin-top: -35px;
     }
-    
+
     .gra {
         font-size: 35px !important;
         margin-top: -35px;
     }
-    
+
     .pa {
         font-size: 10px !important;
+    }
+
+    .wrapper {
+      width: 480px;
     }
 }
 
@@ -4691,19 +4712,23 @@ p {
         width: 91%;
         height: 185px;
     }
-    
+
     .ux {
         font-size: 25px !important;
         margin-top: -50px;
     }
-    
+
     .gra {
         font-size: 25px !important;
         margin-top: -50px;
     }
-    
+
     .pa {
         font-size: 7px !important;
+    }
+
+    .wrapper {
+      width: 420px;
     }
 }
 
@@ -4720,17 +4745,17 @@ p {
         width: 91%;
         height: auto;
     }
-    
+
     .ux {
         font-size: 25px !important;
         margin-top: -60px;
     }
-    
+
     .gra {
         font-size: 25px !important;
         margin-top: -60px;
     }
-    
+
     .pa {
         font-size: 7px !important;
     }
