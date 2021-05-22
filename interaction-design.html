@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="css/style3.css">
     <link rel='stylesheet' id='camera-css'  href='camera.css' type='text/css' media='all'>
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
     <link href="demo-page.css" rel="stylesheet" media="all">
@@ -97,63 +97,43 @@
         </h2>
     </div>
 
-    <div class="r8">
-        <div class="crop26">
-            <a href="#video16" data-fancybox="video" data-fancybox data-caption="">
-                <img src="desktop_lowfi_mockup1.webp" /></a>
-              <video autoplay loop id="video16" muted plays-inline>
-                <source src="desktop_low-fi_mockup.mp4" type="video/mp4">
-              </video>
-        </div>
-        <div class="crop27">
-            <a href="desktop_lowfi_mockup1.webp" data-fancybox="gallery" data-fancybox data-caption=""><img src="desktop_lowfi_mockup1.webp" /></a>
-        </div>
-        <div class="c12">
-            <div class="crop7">
-                <a href="#video8" class="vid" data-fancybox="video" data-fancybox data-caption="">
-                    <img src="desktop_highfi_mockup1.webp" /></a>
-                  <video autoplay loop id="video8" muted plays-inline>
-                    <source src="desktop_hi-fi_mockup1.mp4" type="video/mp4">
-                  </video>
-            </div>
-            <div class="crop8">
-                <a href="#video9" data-fancybox="video" data-fancybox data-caption="">
-                    <img src="desktop_highfi_mockup2.webp" /></a>
-                  <video autoplay loop id="video9" muted plays-inline>
-                    <source src="desktop_hi-fi_mockup2.mp4" type="video/mp4">
-                  </video>
-            </div>
-        </div>
-        <div class="crop16">
-            <a href="desktop_highfi_mockup1.webp" data-fancybox="gallery" data-fancybox data-caption=""><img src="desktop_highfi_mockup1.webp" /></a>
-        </div>
-        <div class="crop17">
-            <a href="desktop_highfi_mockup2.webp" data-fancybox="gallery" data-fancybox data-caption=""><img src="desktop_highfi_mockup2.webp" /></a>
-        </div>
-    </div>
+<div class="wrapper">
 
-    <div class="r18">
-        <div class="crop12">
-            <a href="#video11" data-fancybox="video" data-fancybox data-caption="">
-                <img src="desktop_highfi_mockup4.webp" /></a>
-              <video autoplay loop id="video11" muted plays-inline>
-                <source src="desktop_hi-fi_mockup4.mp4" type="video/mp4">
-              </video>
-        </div>
-        <div class="crop11">
-            <a href="#video10" data-fancybox="video" data-fancybox data-caption="">
-                <img src="desktop_highfi_mockup3.webp" /></a>
-              <video autoplay loop id="video10" muted plays-inline>
-                <source src="desktop_hi-fi_mockup3.mp4" type="video/mp4">
-              </video>
-        </div>
-        <div class="crop19">
-            <a href="desktop_highfi_mockup4.webp" data-fancybox="gallery" data-fancybox data-caption=""><img src="desktop_highfi_mockup4.webp" /></a>
-        </div>
-        <div class="crop18">
-            <a href="desktop_highfi_mockup3.webp" data-fancybox="gallery" data-fancybox data-caption=""><img src="desktop_highfi_mockup3.webp" /></a>
-        </div>
-    </div>
+    <div class="grid-wrapper1 animate-this">
+     <div class="big">
+       <a href="#vid1" class="link" data-fancybox="gallery1" data-fancybox data-caption=""><img class="imgs" src="desktop_lowfi_mockup1.webp" alt="" /></a>
+     </div>
+     <video autoplay loop id="vid1" muted plays-inline style="display: none;">
+               <source src="desktop_low-fi_mockup.mp4" type="video/mp4">
+             </video>
+     <div>
+       <a href="#vid2" class="link" data-fancybox="gallery1" data-fancybox data-caption=""><img class="imgs" src="desktop_highfi_mockup1.webp" alt="" /></a>
+     </div>
+     <video autoplay loop id="vid2" muted plays-inline style="display: none;">
+               <source src="desktop_hi-fi_mockup1.mp4" type="video/mp4">
+             </video>
+     <div>
+       <a href="#vid3" class="link" data-fancybox="gallery1" data-fancybox data-caption=""><img class="imgs" src="desktop_highfi_mockup2.webp" alt=""></a>
+     </div>
+     <video autoplay loop id="vid3" muted plays-inline style="display: none;">
+               <source src="desktop_hi-fi_mockup2.mp4" type="video/mp4">
+             </video>
+     <div class="big">
+       <a href="#vid4" class="link" data-fancybox="gallery1" data-fancybox data-caption=""><img class="imgs" src="desktop_highfi_mockup3.webp" alt="" /></a>
+     </div>
+     <video autoplay loop id="vid4" muted plays-inline style="display: none;">
+               <source src="desktop_hi-fi_mockup3.mp4" type="video/mp4">
+             </video>
+     <div class="wide">
+       <a href="#vid5" class="link" data-fancybox="gallery1" data-fancybox data-caption=""><img class="imgs" src="desktop_highfi_mockup4.webp" alt="" /></a>
+     </div>
+     <video autoplay loop id="vid5" muted plays-inline style="display: none;">
+               <source src="desktop_hi-fi_mockup4.mp4" type="video/mp4">
+             </video>
+
+  </div>
+
+</div>
 
     <p class="paragraph">The goal for this school project was to produce a functioning prototype/website using usability, user experience, and visual design industry standards for a government or association website. Kids in the House is a government website that targets students from the grade level of the elementary, middle, and high school providing education and information about the three branches of the United States Government, the House of Representatives, the process of the three branches, and the House history. Here is the link to view the website: <a href="https://kids-clerk.house.gov/" style="color: blue" target="_blank" rel="noopener"> https://kids-clerk.house.gov</a>. I wanted to make the website more appealing to students from 0-5<sup>th</sup> grade, 6<sup>th</sup>-8<sup>th</sup> grade, and 9<sup>th</sup>-12<sup>th</sup> grade. I added a gradient background with stars and a flag. I also added a carousel, hover state to the navigation and a link to the YouTube channel for the Kids in the House History page.</p>
 
@@ -163,48 +143,36 @@
         </h2>
     </div>
 
-    <div class="phonevid">
-        <a href="#video15" data-fancybox="gallery1" data-fancybox data-caption="">
-            <img src="mobile_lowfi_mockup.webp" /></a>
-        <video autoplay loop id="video15" muted plays-inline>
-            <source src="mobile_low-fi_mockup.mp4" type="video/mp4">
-        </video>
-    </div>
-    <div class="crop25">
-        <a href="mobile_lowfi_mockup.webp" data-fancybox="gallery2" data-fancybox data-caption=""><img src="mobile_lowfi_mockup.webp" /></a>
-    </div>
-    <div class="r">
-        <div class="crop9">
-            <a href="#video13" data-fancybox="gallery1" data-fancybox data-caption="">
-                <img src="mobile_hifi_mockup1.webp" /></a>
-                <video autoplay loop id="video13" muted plays-inline>
-                    <source src="mobile_hi-fi_mockup1.mp4" type="video/mp4">
-                </video>
-        </div>
-        <div class="crop10">
-            <a href="#video14" data-fancybox="gallery1" data-fancybox data-caption="">
-                <img src="mobile_hifi_mockup3.webp" /></a>
-              <video autoplay loop id="video14" muted plays-inline>
-                <source src="mobile_hi-fi_mockup3.mp4" type="video/mp4">
-              </video>
-        </div>
-        <div class="crop20">
-            <a href="mobile_hifi_mockup1.webp" data-fancybox="gallery2" data-fancybox data-caption=""><img src="mobile_hifi_mockup1.webp" /></a>
-        </div>
-        <div class="crop21">
-            <a href="mobile_hifi_mockup3.webp" data-fancybox="gallery2" data-fancybox data-caption=""><img src="mobile_hifi_mockup3.webp" /></a>
-        </div>
-    </div>
-    <div class="phonevid2">
-        <a href="#video12" data-fancybox="gallery1" data-fancybox data-caption="">
-            <img src="mobile_hifi_mockup2.webp" /></a>
-        <video autoplay loop id="video12" muted plays-inline>
-            <source src="mobile_hi-fi_mockup2.mp4" type="video/mp4">
-        </video>
-    </div>
-    <div class="crop22">
-        <a href="mobile_hifi_mockup2.webp" data-fancybox="gallery2" data-fancybox data-caption=""><img src="mobile_hifi_mockup2.webp" /></a>
-    </div>
+  <div class="wrapper">
+
+    <div class="grid-wrapper2 animate-this">
+     <div class="big">
+       <a href="#vid6" class="link" data-fancybox="gallery2" data-fancybox data-caption=""><img class="imgs" src="mobile_lowfi_mockup.webp" alt="" /></a>
+     </div>
+     <video autoplay loop id="vid6" muted plays-inline style="display: none;">
+               <source src="mobile_low-fi_mockup.mp4" type="video/mp4">
+             </video>
+     <div>
+       <a href="#vid8" class="link" data-fancybox="gallery2" data-fancybox data-caption=""><img class="imgs" src="mobile_hifi_mockup1.webp" alt=""></a>
+     </div>
+     <video autoplay loop id="vid8" muted plays-inline style="display: none;">
+               <source src="mobile_hi-fi_mockup1.mp4" type="video/mp4">
+             </video>
+     <div class="tall">
+       <a href="#vid7" class="link" data-fancybox="gallery2" data-fancybox data-caption=""><img class="imgs" src="mobile_hifi_mockup3.webp" alt="" /></a>
+     </div>
+     <video autoplay loop id="vid7" muted plays-inline style="display: none;">
+               <source src="mobile_hi-fi_mockup3.mp4" type="video/mp4">
+             </video>
+     <div class="wide">
+       <a href="#vid9" class="link" data-fancybox="gallery2" data-fancybox data-caption=""><img class="imgs" src="mobile_hifi_mockup2.webp" alt="" /></a>
+     </div>
+     <video autoplay loop id="vid9" muted plays-inline style="display: none;">
+               <source src="mobile_hi-fi_mockup2.mp4" type="video/mp4">
+             </video>
+  </div>
+
+  </div>
 
     <p class="paragraph">For the mobile version, same as the desktop version, on the main page, the Young Learners, Grade Levels, Congress, and History is available on the navigation. You will find other available links as well as a link to the YouTube Channel.</p>
 
