@@ -7,6 +7,10 @@ body {
     font-weight: 100;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header {
     width: 100%;
     height: auto;
@@ -40,26 +44,16 @@ body {
     cursor: pointer;
     font-family: 'Ubuntu', sans-serif !important;
     transition: all 0.3s ease;
-
 }
 
 .button:hover {
     background-color: #00656d;
+    color: #512a44 !important;
     transition: all 0.3s ease;
-}
-
-.button a:hover {
-    color: #512a44;
 }
 
 .button1 {
     border-radius: 43px;
-}
-
-.button a {
-    color: #ffffff;
-    text-decoration: none;
-    transition: all 0.3s ease;
 }
 
 p {
@@ -336,10 +330,6 @@ p {
 
     .button9 {
         border-radius: 43px;
-    }
-
-    .button a {
-        color: white;
     }
 
     .yump {
@@ -3892,7 +3882,7 @@ p {
     }
 
     .button5 {
-        display: inline;
+        display: inline-block;
     }
 
     .mobimg {
