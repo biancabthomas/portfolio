@@ -1,6 +1,6 @@
 
 /* ====================================
-Navigation 
+Navigation
 ==================================== */
 
 .overlay-navigation {
@@ -283,7 +283,7 @@ Burger king
 @media screen and (max-width: 900px) {
     .open-overlay {
         position: absolute;
-        right: 1rem;
+        right: 1.9rem !important;
         top: 2.5rem;
         z-index: 100;
         width: 34px;
@@ -300,15 +300,15 @@ Burger king
         cursor: pointer;
         margin-top: 5px;
     }
-    
+
     .bar-top {
         width: 40px;
     }
-    
+
     .bar-middle {
         width: 20px;
     }
-    
+
     .bar-bottom {
         width: 30px;
     }
