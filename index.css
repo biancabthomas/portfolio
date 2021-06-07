@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden;
+}
+
 body {
     text-align: center;
     overflow-x: hidden;
@@ -7,9 +11,36 @@ body {
     font-weight: 100;
 }
 
+
 section {
   width: 1125px;
   margin: 0 auto;
+}
+
+.topnav a svg path {
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.topnav a svg:hover .teal {
+  fill: #006068;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.topnav a svg:hover g {
+  fill: #522a44;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 a {
@@ -67,8 +98,8 @@ p {
 
 .fluid_container {
 	margin: 0 auto;
-    max-width: 1120px;
-    width: 90%;
+  max-width: 1120px;
+  width: 90%;
 }
 
 @media screen and (max-width: 5200px) {
@@ -200,7 +231,8 @@ p {
         padding-top: 70px;
         padding-bottom: 1px;
         margin-right: 0;
-        width: 60px;
+        margin-bottom: -60px;
+        width: 100px;
         height: auto;
         float: left;
     }
@@ -4378,12 +4410,16 @@ p {
     section{
       width: 100%!important;
     }
+    .wrapper {
+      width: 90%!important;
+    }
     h1 {
         width: 85%;
     }
 
     .h1 {
         width: 92%!important;
+        font-size: 50px!important;
     }
     .r6{
       display: block!important;
@@ -4416,6 +4452,11 @@ p {
     .para {
       font-size: 20px!important;
       line-height: 30px!important;
+    }
+    .fluid_container {
+    	margin: 0 auto;
+      max-width: 100%!important;
+      width: 90%!important;
     }
 }
 
@@ -4450,10 +4491,6 @@ p {
     .pa {
         font-size: 10px !important;
     }
-
-    .wrapper {
-      width: 480px;
-    }
 }
 
 @media screen and (max-width: 400px) {
@@ -4482,10 +4519,6 @@ p {
 
     .pa {
         font-size: 7px !important;
-    }
-
-    .wrapper {
-      width: 420px;
     }
 }
 
