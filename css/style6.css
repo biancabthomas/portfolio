@@ -63,8 +63,8 @@
 @keyframes animate{
     0%{
         transform: translate(-50%,-50%) rotate(0deg);
-        border-top-color: #7a5970;
-        border-bottom-color: #7a5970;
+        border-top-color: #006972;
+        border-bottom-color: #006972;
     }
     20%{
         transform: translate(-50%,-50%) rotate(220deg);
