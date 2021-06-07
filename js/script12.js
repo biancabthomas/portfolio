@@ -6,6 +6,7 @@ function scroll() {
   var scrollTop = $(window).scrollTop();
   var height = $(window).height()
   var visibleTop = scrollTop + height;
+  $('body').css('overflow', 'hidden');
   $('.reveal').each(function() {
     var $t = $(this);
     if ($t.hasClass('reveal_visible')) { return; }
