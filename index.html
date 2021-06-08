@@ -24,7 +24,6 @@ gtag('config', 'UA-163138637-1');
     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400, 900' rel='stylesheet'>
     <link rel='stylesheet' href="index.css">
     <link rel="stylesheet" href="css/style6.css">
-    <link rel="stylesheet" href="css/aos.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
     <title>Bianca B. Thomas Digital Design Portfolio</title>
@@ -37,43 +36,44 @@ gtag('config', 'UA-163138637-1');
 <body>
 
     <style>
-        @media screen and (max-width: 5200px) {
-            html, body {
-                width: 100%;
-                margin: 0;
-                padding: 0;
-                height: 100%;
-                overflow-y: hidden;
-            }
-        }
+          html, body {
+            width: 100%!important;
+            margin: 0;
+            padding: 0;
+            height: 100%!important;
+            overflow-y: hidden;
+          }
+          body {
+              background-image: url(glitch_effect.jpg);
+              display: table;
+          }
+          h1 {
+            width: 1125px!important;
+          }
 
-        @media screen and (max-width: 2000px) {
-            html, body {
-                width: 100%;
-                margin: 0;
-                padding: 0;
-                height: 100%;
-                overflow-y: hidden;
-            }
-        }
+          @media screen and (max-width: 1500px) {
+              html, body {
+                  height: 85%!important;
+              }
+          }
 
-        @media screen and (max-width: 1500px) {
-            html, body {
-                height: 85%;
+          @media screen and (max-width: 1025px) {
+            h1 {
+              width: 900px!important;
             }
-        }
+          }
 
-        @media screen and (max-width: 830px) {
-            html, body {
-                height: 0;
-                margin-top: -50px;
+          @media screen and (max-width: 830px) {
+              html, body {
+                  height: 0!important;
+              }
+          }
+
+          @media screen and (max-width: 600px) {
+            h1 {
+              width: 85%!important;
             }
-        }
-
-        body {
-            background-image: url(glitch_effect.jpg);
-            display: table;
-        }
+          }
     </style>
 
     <div id="overlayer"></div>
@@ -92,21 +92,15 @@ gtag('config', 'UA-163138637-1');
                   </ul>
     </span>
 
-  <div data-aos="zoom-in">
+
     <div class="container">
         <h1>Bianca B. Thomas</h1>
 
         <div id="btn">
             <a href="portfolio.html"><button class="button button1"><b>View Portfolio</b></button></a></div>
     </div>
-  </div>
 
-  <script src="js/aos.js"></script>
-  <script>
-    AOS.init({
-      easing: 'ease-in-out-sine'
-    });
-  </script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/script13.js"></script>
 

@@ -107,6 +107,7 @@ p {
         text-align: center;
         display: table-cell;
         vertical-align: middle;
+        margin: 0 auto;
     }
 
     h1 {
@@ -116,8 +117,8 @@ p {
         font-weight: 900px;
         border: solid;
         border-width: 11px;
-        margin: auto;
-        width: 22%;
+        margin: 0 auto;
+        width: 100%!important;
         font-family: 'Ubuntu', sans-serif!important;
         font-style: normal;
         font-weight: 700;
@@ -280,7 +281,6 @@ p {
         display: flex;
         clear: both;
         margin: auto;
-        width: 100%;
     }
 
     .col1 {
@@ -2540,10 +2540,6 @@ p {
         padding-bottom: 1px;
     }
 
-    .row {
-        margin-bottom: 0;
-    }
-
     .col1 {
         padding: 20px;
         float: left;
@@ -3530,6 +3526,9 @@ p {
     .wrapper {
       width: 900px;
     }
+    h1 {
+      width: 900px !important;
+    }
     .h1 {
       width: 900px !important;
     }
@@ -3694,7 +3693,9 @@ p {
 
     .row {
         display: block;
+        margin: 0 auto!important;
         margin-top: 0;
+        width: 90%!important;
     }
 
     .col1 {
@@ -4414,7 +4415,7 @@ p {
       width: 90%!important;
     }
     h1 {
-        width: 85%;
+        width: 92%!important;
     }
 
     .h1 {
