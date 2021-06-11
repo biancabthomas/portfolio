@@ -11,10 +11,22 @@ body {
     font-weight: 100;
 }
 
-
 section {
   width: 1125px;
   margin: 0 auto;
+}
+
+.hover {
+  color: #00656d;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.hover:hover {
+  color: #EDA953!important;
 }
 
 .topnav a svg path {
