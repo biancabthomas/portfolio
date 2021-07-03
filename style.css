@@ -344,10 +344,10 @@ Burger king
     }
 }
 
-@media screen and (max-width:800px) and (min-width: 669px) {
+@media screen and (max-width:800px) and (min-width: 771px) {
     .open-overlay {
         position: absolute;
-        right: 1rem;
+        right: 1rem!important;
         top: 2.3rem;
         z-index: 100;
         width: 34px;
@@ -397,7 +397,6 @@ Burger king
 @media screen and (max-width:770px) and (min-width: 738px) {
     .open-overlay {
         position: absolute;
-        right: 1rem;
         top: 2.5rem;
         z-index: 100;
         width: 34px;
@@ -447,7 +446,6 @@ Burger king
 @media screen and (max-width:737px) and (min-width: 669px) {
     .open-overlay {
         position: absolute;
-        right: 1rem;
         top: 2.3rem;
         z-index: 100;
         width: 34px;
@@ -497,7 +495,6 @@ Burger king
 @media screen and (max-width:668px) and (min-width: 642px) {
     .open-overlay {
         position: absolute;
-        right: 1rem;
         top: 2.3rem;
         z-index: 100;
         width: 34px;
@@ -597,8 +594,8 @@ Burger king
 @media screen and (max-width: 570px) and (min-width: 482px) {
     .open-overlay {
         position: absolute;
-        right: 1rem;
         top: 2rem;
+        right: -8rem!important;
         z-index: 100;
         width: 34px;
         display: block;
@@ -647,7 +644,7 @@ Burger king
 @media screen and (max-width:481px) and (min-width: 420px) {
     .open-overlay {
         position: absolute;
-        right: 1rem;
+        right: -20rem!important;
         top: 1.7rem;
         z-index: 100;
         width: 34px;
@@ -697,7 +694,7 @@ Burger king
 @media screen and (max-width:419px) and (min-width: 326px) {
     .open-overlay {
         position: absolute;
-        right: 0rem;
+        right: -20rem!important;
         top: 1.3rem;
         z-index: 100;
         width: 34px;
@@ -747,7 +744,7 @@ Burger king
 @media screen and (max-width:325px) and (min-width: 300px) {
     .open-overlay {
         position: absolute;
-        right: 0rem;
+        right: -23rem!important;
         top: 1.2rem;
         z-index: 100;
         width: 34px;

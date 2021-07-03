@@ -195,7 +195,7 @@ p {
     #social1 {
         float: left;
         margin-top: 55px;
-        margin-right: 0 !important;
+        margin-right: 10px !important;
         width: 2%;
         transition: all 0.3s ease;
         color: #ffffff;
@@ -213,12 +213,28 @@ p {
         border-radius: 50% 0 50% 0;
     }
 
+    #social3 {
+        float: left;
+        margin-top: 55px;
+        margin-right: 50px !important;
+        margin-left: 5px;
+        width: 2%;
+        transition: all 0.3s ease;
+        color: #ffffff;
+        border-radius: 50% 0 50% 0;
+    }
+
     #social1:hover {
         color: #512a44;
         background: #00656d;
     }
 
     #social2:hover {
+        color: #512a44;
+        background: #00656d;
+    }
+
+    #social3:hover {
         color: #512a44;
         background: #00656d;
     }
@@ -231,13 +247,43 @@ p {
         color: #ffffff;
     }
 
+    #social3:visited {
+        color: #ffffff;
+    }
+
+    .main1 {
+      margin-top: 50px;
+      float: left;
+    }
+    .main2 {
+      margin-top: 50px;
+      float: left;
+    }
+
+    .topnav .lg {
+      float: left;
+      margin-right: 32px;
+    }
+
+    .topnav .lg a img {
+      position: absolute;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+    .topnav a .main2:hover {
+      opacity: 0;
+    }
+
     ul.topnav .icon {
         display: none;
         color: white;
     }
 
     .nav .closebtn {
-        display: none
+        display: none;
     }
 
     .logo {
@@ -1297,6 +1343,7 @@ p {
         line-height: 25px;
         color: #00656d;
         position: initial;
+        margin-top: 50px!important;
     }
 }
 
@@ -3587,10 +3634,17 @@ p {
     .wrapper {
       width: 720px !important;
     }
+    .logo {
+        padding-top: 10px;
+        margin-bottom: 0;
+    }
     ul.topnav {
         width: 720px;
     }
     ul.topnav a:not(:first-child) {
+        display: none;
+    }
+    ul.topnav .lg {
         display: none;
     }
 
@@ -3616,6 +3670,9 @@ p {
 
     nav ul li a:hover {
         color: #008b8b;
+    }
+    .nav .closebtn {
+        display:block;
     }
     .h1 {
       width: 97.1% !important;
@@ -4483,10 +4540,6 @@ p {
 
     .h1 {
         width: 87%;
-    }
-
-    .logo {
-        padding-top: 10px;
     }
 
     iframe {
