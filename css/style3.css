@@ -170,6 +170,20 @@
 	object-fit: cover;
 	border-radius: 0;
 }
+.grid-wrapper6 > div > .link, .imgs2 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: left!important;
+	border-radius: 0;
+}
+.grid-wrapper6 > div > .link, .imgs3 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: right!important;
+	border-radius: 0;
+}
 .grid-wrapper6 {
 	display: grid;
 	grid-gap: 10px;
