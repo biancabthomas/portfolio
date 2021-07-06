@@ -78,6 +78,13 @@
 	object-position: left!important;
 	border-radius: 0;
 }
+.grid-wrapper3 > div > .link, .imgs2 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: left!important;
+	border-radius: 0;
+}
 .grid-wrapper3 {
 	display: grid;
 	grid-gap: 10px;
@@ -105,6 +112,27 @@
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	border-radius: 0;
+}
+.grid-wrapper4 > div > .link, .imgsj2 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: right!important;
+	border-radius: 0;
+}
+.grid-wrapper4 > div > .link, .imgsj3 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: left!important;
+	border-radius: 0;
+}
+.grid-wrapper4 > div > .link, .imgsj4 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: 30% 70%!important;
 	border-radius: 0;
 }
 .grid-wrapper4 {
