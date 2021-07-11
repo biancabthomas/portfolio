@@ -40,10 +40,11 @@
 	justify-content: center;
 	align-items: center;
 }
-.grid-wrapper2 > div > .link, .imgs {
+.grid-wrapper2 > div > .link, .imgsj1 {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	object-position: center!important;
 	border-radius: 0;
 }
 
