@@ -251,6 +251,7 @@
 }
 .grid-wrapper7 .wide {
 	grid-column: span 4;
+	grid-row: span 2;
 }
 .grid-wrapper7 .tall {
 	grid-row: span 2;
